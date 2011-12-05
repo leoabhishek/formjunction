@@ -2,9 +2,11 @@
 /**
  * Module dependencies.
  */
-var express = require('express')
-  , routes = require('./routes');
-var constants = require('./constants');
+var express = require('express'),
+    routes = require('./routes'),
+    config = require('./config/config'); 
+
+//  constants = require('./constants');
 
 var app = module.exports = express.createServer();
 
@@ -42,5 +44,5 @@ app.register('.html', {
 // Routes
 
 app.get('/', routes.index);
-app.listen(constants.server.port);
+app.listen(config.server.port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
