@@ -1,10 +1,14 @@
 {
-    "name": "application-name"
+    "name": "Form Junction"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
-      "express": "2.5.1"
-    , "jade": ">= 0.0.1"
-    , "mongoose": ">= 2.4.0"
+      "express": "latest"
+    , "jade": "latest"
+    , "mongoose": "latest"
+    , "connect" : "latest"
+    , "mime" : "latest"
+    , "qs" : "latest"
+    , "formidable" : "latest"
   }
 }
