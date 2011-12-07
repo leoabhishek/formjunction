@@ -10,5 +10,6 @@
     , "mime" : "latest"
     , "qs" : "latest"
     , "formidable" : "latest"
+    , "mysql" : "latest"
   }
 }
